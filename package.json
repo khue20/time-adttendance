@@ -1,0 +1,51 @@
+{
+  "name": "default",
+  "_moduleAliases": {
+    "@": "src"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "ts-node-dev --respawn --transpile-only ./src/app.ts"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "fs": "^0.0.1-security",
+    "joi": "^17.4.0",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.12",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/body-parser": "^1.19.0",
+    "@types/cors": "^2.8.10",
+    "@types/cron": "^1.7.2",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.12",
+    "@types/express-handlebars": "^5.3.0",
+    "@types/joi": "^17.2.3",
+    "@types/module-alias": "^2.0.0",
+    "@types/moment": "^2.13.0",
+    "@types/mongoose": "^5.11.57",
+    "@types/passport": "^1.0.6",
+    "@types/passport-jwt": "^3.0.5",
+    "@types/passport-local": "^1.0.33",
+    "ts-loader": "^7.0.5",
+    "ts-node-dev": "^1.0.0-pre.62",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.6"
+  }
+}
